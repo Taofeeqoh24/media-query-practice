@@ -1,7 +1,12 @@
+body {
+    margin: 0;
+}
+
 .container {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
+    width: 100%;
 }
 .content-box {
     width: 250px;
@@ -44,6 +49,11 @@ img {
     .container {
         grid-template-columns: repeat(2, minmax(200px));
         justify-content: center;
+        
+    }
+    .content-box {
+        justify-content: center;
+        margin-left: 20px;
     }
     h1 {
         font-size: 1rem;
